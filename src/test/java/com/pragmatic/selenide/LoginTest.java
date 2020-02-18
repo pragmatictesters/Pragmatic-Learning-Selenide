@@ -18,6 +18,13 @@ public class LoginTest  extends SelenideTestBase{
         $("#welcome").shouldHave(exactText("Welcome Admin"));
     }
 
+  @Test(groups = {"smoke", "regression"})
+    public void testValidUserLoginWithEnterKey(){
+        $("#txtUsername").setValue("Admin");
+        $("#txtPassword").setValue("Ptl@#321").pressEnter();
+        $("#welcome").shouldHave(exactText("Welcome Admin"));
+    }
+
     @Test(groups = {"regression"})
     public void testInvalidUserLoginWithBlankUsernameAndPassword(){
         $("#txtUsername").clear();
