@@ -6,15 +6,24 @@ import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
+import static com.pragmatic.selenide.utils.Constants.*;
 
 public class LoginTest  extends SelenideTestBase{
 
 
     @Test(groups = {"smoke", "regression"})
     public void testValidUserLogin(){
-        $("#txtUsername").setValue("Admin");
-        $("#txtPassword").setValue("Ptl@#321");
+        $("#txtUsername").setValue(ADMIN_USERNAME);
+        $("#txtPassword").setValue(ADMIN_PASSWORD);
         $("#btnLogin").click();
+        $("#welcome").shouldHave(exactText("Welcome Admin"));
+    }
+
+
+    @Test(groups = { "regression"})
+    public void testValidUserLoginWithEnterKey(){
+        $("#txtUsername").setValue(ADMIN_USERNAME);
+        $("#txtPassword").setValue(ADMIN_PASSWORD).pressEnter();
         $("#welcome").shouldHave(exactText("Welcome Admin"));
     }
 
