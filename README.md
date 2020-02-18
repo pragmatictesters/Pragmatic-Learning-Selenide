@@ -14,5 +14,8 @@ Pragmatic Selenide Sample Project
 
 ## Application Automation Concepts and Use of Selenide API 
 * Data Driven Testing through TestNG @DataProvider (Class , CSV)
+* File upload 
+* Use of checkboxes, dropdowns, buttons, input boxes, labels 
+* Use of Selenide Assertions  
 * TODO : Cucumber Integration 
-* TODO : File upload 
+
