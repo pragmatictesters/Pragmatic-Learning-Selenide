@@ -33,13 +33,20 @@ public class HRMTestBase {
         setUp();
     }
 
-
+    /**
+     * Supported Browsers (values) : "chrome", "firefox", "legacy_firefox" (upto ESR 52), "ie", "opera", "edge"
+     * Default value: "chrome"
+     *
+     *
+     */
     private void setUp() {
+
         Configuration.browser = "Chrome";
         Configuration.baseUrl = "https://hrm.pragmatictestlabs.com";
         Configuration.startMaximized = true;
         Configuration.headless = false;
         Configuration.timeout = 5000;
+        Configuration.holdBrowserOpen= false;
     }
 
 

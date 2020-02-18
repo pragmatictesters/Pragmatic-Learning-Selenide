@@ -3,7 +3,6 @@ package com.pragmatic.selenide;
 import static com.codeborne.selenide.Condition.*;
 
 import com.codeborne.selenide.Selenide;
-import com.pragmatic.selenide.util.HRMTestData;
 import org.testng.annotations.Test;
 
 import java.io.File;

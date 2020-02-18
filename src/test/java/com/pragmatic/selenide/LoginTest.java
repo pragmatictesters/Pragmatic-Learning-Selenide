@@ -2,7 +2,6 @@ package com.pragmatic.selenide;
 
 
 import com.pragmatic.selenide.util.Constants;
-import com.pragmatic.selenide.util.HRMTestData;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.*;
