@@ -1,5 +1,6 @@
 # Pragmatic Selenide 
-Pragmatic Selenide Sample Project 
+Pragmatic Selenide Sample Project demonstrate use of Selenide API for a sample web application test automation 
+
 
 ## Tools and Technologies 
 * Gradle for dependency management 
@@ -16,6 +17,7 @@ Pragmatic Selenide Sample Project
 ## Application Automation Concepts and Use of Selenide API 
 * Data Driven Testing through TestNG @DataProvider (Class , CSV)
 * File upload 
+* Page Object Implementation
 * Use of checkboxes, dropdowns, buttons, input boxes, labels 
 * Use of Selenide Assertions  
 * TODO : Cucumber Integration 
