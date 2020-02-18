@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Gradle test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.366">
+  <properties />
+  
+  
+            <testcase name="testInvalidUserLoginWithDDT" time="0.290" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithDDT" time="0.459" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testValidUserLogin" time="3.580" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithDDT" time="0.356" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithDDT" time="1.357" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithDDT" time="1.402" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithDDT" time="1.433" classname="com.pragmatic.selenide.LoginTest" />
+                <testcase name="testInvalidUserLoginWithBlankUsernameAndPassword" time="0.489" classname="com.pragmatic.selenide.LoginTest" />
+      
+</testsuite>
