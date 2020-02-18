@@ -1,0 +1,6 @@
+username,password,expected
+,,Username cannot be empty
+,Ptl@#321,Username cannot be empty
+Admin,,Password cannot be empty
+Admin,ptl@#321,Invalid credentials
+Admin,pTL@#321,Invalid credentials
