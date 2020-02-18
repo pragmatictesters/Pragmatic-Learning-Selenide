@@ -2,6 +2,7 @@ package com.pragmatic.selenide;
 
 
 import com.codeborne.selenide.Configuration;
+import com.github.javafaker.Faker;
 import com.pragmatic.selenide.util.Constants;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -11,8 +12,9 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class SelenideTestBase {
+public class HRMTestBase {
 
+    public static  Faker faker = new Faker();
 
     @BeforeSuite(groups = {"smoke"})
     public void beforeSuiteSmoke() {
